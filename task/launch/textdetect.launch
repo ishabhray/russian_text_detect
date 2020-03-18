@@ -1,0 +1,7 @@
+<launch>
+
+	<node pkg="task" name="camera" type="camera.py"/>
+	<node pkg="task" name="detection" type="detection.py"/>
+	<node pkg="task" name="matching" type="matching.py"/>
+
+</launch>
